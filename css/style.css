@@ -1,0 +1,86 @@
+
+
+
+body{
+    background-color: rgb(197, 193, 187);
+}
+.hh,.ph,.ch{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#home,#products,#contact{
+    margin: 3rem 0 3rem;
+  
+}
+.carousel-item {
+    height: 496px;
+   
+ }
+ .d-block{
+     height: 100%;
+     object-fit: cover;
+ }
+/* Navigation */
+.navbar{
+    background-image:linear-gradient(45deg, #9ea09c,#2e2d2d) ; 
+   
+}
+ .navbar-nav .nav-item:hover{
+    background-image:linear-gradient(45deg, #fbfdfa,#f4efef) ;
+   border-radius: 30px;
+   transform: translateY(-0.5rem);
+   transition: top 0.5s, opacity 0.5s ;
+}
+#navbarNavDropdown{
+    margin-right:45rem ;
+   
+}
+.navbar-collapse ul li a{
+    color: whitesmoke;
+}
+
+ /* Contact */
+ .contact{
+    background-image:linear-gradient(45deg, #838680,#e6e6e6) ;
+    padding: 0 2rem;
+    margin: 3rem 1rem;
+    
+    
+}
+form input, form textarea{
+    width: 90%;
+    border: 0;
+    outline: none;
+    background:rgba(222, 219, 219, 0.818);
+    padding: 15px;
+    margin: 15px 0;
+    color: #1f1e1e;
+    font-size: 18px;
+    border-radius: 6px;
+
+}
+form input#name, form input#mail{
+    width: 50%;
+
+}
+form button{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-image:linear-gradient(45deg, #fbfdfa,#8c8c8b) ;
+}
+
+/* Footer */
+.footer{
+    background-color:  #7d7d7b;
+}
+.footer .list-inline-item:hover{
+    transform: translateY(0.5rem);
+    transition: top 0.5s, opacity 0.5s ;
+    
+}
+.footer img{
+    margin-left: 7rem;
+}
